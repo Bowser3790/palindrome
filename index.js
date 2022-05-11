@@ -61,7 +61,8 @@ this.processedContent = function processedContent() {
 
 // Refactored version of the above code
 this.letters = function letters() {
-  return Array.from(this.content).filter(c => c.match(/[a-z]/i)).join("");
+  const letterRegEx = /[a-z]/i
+  return Array.from(this.content).filter(c => c.match(letterRegEx)).join("");
 }
   // this.content = "Madam, I'm Adam"
 

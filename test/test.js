@@ -41,6 +41,10 @@ describe("Phrase", function(){
         let punctuatedPal = new Phrase("Madam, I'm Adam");
         assert.strictEqual(punctuatedPal.letters(), "MadamImAdam");
       });
+      it ("should return empty string if there are only numbers", function() {
+        let testPhrase = new Phrase("123.45");
+        assert.strictEqual(testPhrase.letters(), "");
+      });
     });
   });
 });

@@ -1,5 +1,5 @@
 {
-  "name": "bowser3790-palindrome",
+  "name": "learnenough-palindrome",
   "version": "1.0.0",
   "description": "Palindrome detector",
   "main": "(index.js)",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Bowser3790/palindrome/issues"
   },
-  "homepage": "https://github.com/Bowser3790/palindrome#readme"
+  "homepage": "https://github.com/Bowser3790/palindrome#readme",
+  "dependencies": {
+    "clear": "^0.1.0"
+  }
 }
