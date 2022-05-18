@@ -1,4 +1,6 @@
-<!-- Sample NPM module created in Learn Enough JavaScript to Be Dangerous tutorial by Michael Hartl.
+# NPM module
+
+Sample NPM module Learn Enough JavaScript to Be Dangerous
 
 The module can be used as follows:
 
@@ -10,13 +12,6 @@ console.log(napoleonsLament.palindrome());
 node test.js
 true -->
 
-# NPM module
-LearnEnough JavaScript to be Dangerous
+Adding a hyperlink to .md file below.
 
-Note:
-
-The above part of the README is how the module works.
-
-This next section is additional features that are available through .md file.
-
-[*add hyperlink back to repository*](https://github.com/Bowser3790/palindrome)
+[*My NPM test module GitHub*](https://github.com/Bowser3790/palindrome)
